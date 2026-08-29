@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Technical" description="Current technical specification of the Voltii EV conversion">
+  <h1>Technical Overview</h1>
+  <p><em>A living summary — updated as decisions are finalised. See the journal for the reasoning behind each one.</em></p>
+
+  <h2>Powertrain</h2>
+  <p>
+    Nissan Leaf EM57 motor and inverter (80kW/250Nm standard unit), full transaxle
+    delete via an Online Gearbox Parts Shop coupler onto the raw output shaft. Drive
+    goes into a retained Getrag 245/4 four-speed gearbox through a BRAT Industries
+    adapter. The BMW diff is the sole reduction stage, targeting 4.10:1.
+  </p>
+
+  <h2>Brakes</h2>
+  <p>
+    Bosch iBooster using factory RHD-specific part numbers (Tesla-platform sourced),
+    replacing the original remote servo. CAN-free: 12V ignition-switched power, 12V
+    battery, ground only.
+  </p>
+
+  <h2>Battery, BMS &amp; Controller</h2>
+  <p>
+    Still open. Targeting 30–40kWh, weighing reused Leaf modules against new EVE
+    prismatic LFP cells. Leaning toward an openinverter/Zombieverter controller with
+    an Orion Jr2 or REC BMS.
+  </p>
+
+  <h2>Compliance</h2>
+  <p>
+    Queensland NCOP LV1 pathway, via Autotechnica QLD as the TMR signatory.
+  </p>
+
+  <p><a href="/">&larr; Back to the journal</a></p>
+</BaseLayout>

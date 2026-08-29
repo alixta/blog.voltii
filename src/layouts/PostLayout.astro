@@ -1,0 +1,34 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  date: Date;
+  heroImage?: string;
+  tags?: string[];
+}
+const { title, description, date, heroImage, tags = [] } = Astro.props;
+
+const formattedDate = date.toLocaleDateString('en-AU', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+});
+---
+<BaseLayout title={title} description={description}>
+  <article>
+    <p class="post-meta"><a href="/">&larr; Journal</a></p>
+    <h1>{title}</h1>
+    <p class="post-meta">{formattedDate}</p>
+    {tags.length > 0 && (
+      <p>
+        {tags.map((t: string) => <span class="tag">{t}</span>)}
+      </p>
+    )}
+    {heroImage && <img src={heroImage} alt={title} style="margin: 1.5rem 0;" />}
+    <div class="post-body">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>
