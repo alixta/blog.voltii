@@ -1,30 +1,37 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-
-const allPosts = await getCollection('posts');
-const posts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
-<BaseLayout title="Journal">
-  <h1>Voltii: The Build Journal</h1>
-  <p>
-    A 1973 BMW 2002tii, right-hand drive, being converted to electric in Brisbane,
-    Australia. The numbers-matching engine stays in storage. Progress, decisions,
-    and dead ends, roughly as they happen.
-  </p>
+<BaseLayout title="Coming Soon" description="A 1973 BMW 2002tii EV conversion — build journal launching soon">
+  <div class="coming-soon">
+    <h1>Voltii</h1>
+    <p class="tagline">A 1973 BMW 2002tii, going electric.</p>
+    <p>
+      The build journal is on its way. In the meantime, the first post is
+      already up if you want a preview.
+    </p>
+    <p>
+      <a class="cta" href="/journal">Read the journal &rarr;</a>
+    </p>
+  </div>
 
-  <ul class="post-list">
-    {posts.map((post) => (
-      <li>
-        <a class="title" href={`/posts/${post.id}/`}>{post.data.title}</a>
-        <p class="post-meta">
-          {post.data.date.toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' })}
-        </p>
-        {post.data.description && <p>{post.data.description}</p>}
-        {post.data.tags.length > 0 && (
-          <p>{post.data.tags.map((t: string) => <span class="tag">{t}</span>)}</p>
-        )}
-      </li>
-    ))}
-  </ul>
+  <style>
+    .coming-soon {
+      text-align: center;
+      padding: 4rem 0;
+    }
+    .coming-soon h1 {
+      font-size: 3rem;
+      margin-bottom: 0.25rem;
+    }
+    .tagline {
+      color: var(--muted);
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 1rem;
+      font-weight: 600;
+    }
+  </style>
 </BaseLayout>
