@@ -1,23 +1,17 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
-<BaseLayout title="Coming Soon" description="A 1973 BMW 2002tii EV conversion — build journal launching soon">
+<BaseLayout title="Coming Soon" description="A 1973 BMW 2002tii EV conversion — build journal launching soon" minimal={true}>
   <div class="coming-soon">
     <h1>Voltii</h1>
     <p class="tagline">A 1973 BMW 2002tii, going electric.</p>
-    <p>
-      The build journal is on its way. In the meantime, the first post is
-      already up if you want a preview.
-    </p>
-    <p>
-      <a class="cta" href="/journal">Read the journal &rarr;</a>
-    </p>
+    <p>The build journal is on its way.</p>
   </div>
 
   <style>
     .coming-soon {
       text-align: center;
-      padding: 4rem 0;
+      padding: 6rem 0;
     }
     .coming-soon h1 {
       font-size: 3rem;
@@ -27,11 +21,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       color: var(--muted);
       font-size: 1.1rem;
       margin-bottom: 2rem;
-    }
-    .cta {
-      display: inline-block;
-      margin-top: 1rem;
-      font-weight: 600;
     }
   </style>
 </BaseLayout>
