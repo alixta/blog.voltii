@@ -1,25 +1,21 @@
 ---
 title: "Introducing Voltii: A 1973 BMW 2002tii Goes Electric"
-description: "Why this numbers-matching tii is going electric instead of getting a K24 or an EFI restoration — and the technical plan so far."
+description: "Why this numbers-matching tii is going electric instead of an EFI restoration or a modern engine swap — and the technical plan so far."
 date: 2026-08-29
 tags: ["intro", "backstory", "technical overview"]
 ---
 
 ## The Car
 
-This is a 1973 BMW 2002tii — chassis 2751676, right-hand drive, manufactured in Germany and originally delivered to a dealership in London. How and when it made its way to Australia isn't clear yet — still a gap in the car's history. It was delivered new in Inca Orange, and was repainted a deep navy blue at some point along the way. It also came factory-fitted with a Getrag 235/5 close-ratio dogleg 5-speed and a limited-slip differential — a combination fewer than 2,000 cars ever left the factory with. The original invoice confirms it. That gearbox is long gone, lost to history before I owned the car, but the paper trail is still here and it tells a story of a car that was a bit special even when it was new.
-
-The plates read **02TII**, a tip of the hat to the previous owner who ran them long before me. I'm keeping them.
+This is a 1973 BMW 2002tii — chassis 2751676, right-hand drive, manufactured in Germany and originally delivered to a dealership in London. How and when it made its way to Australia isn't clear yet — still a gap in the car's history. It was delivered new in Inca Orange, and was repainted a deep navy blue at some point along the way. It also came factory-fitted with a Getrag 235/5 close-ratio dogleg 5-speed and a limited-slip differential — a combination fewer than 2,000 cars ever left the factory with. The original invoice confirms it. That dogleg gearbox is lost to time — gone before I owned the car. The car currently has a Getrag 245/10 five-speed overdrive gearbox fitted, likely from a later replacement or upgrade. That'll be coming out too, and will either go into storage or get sold on as a complete five-speed conversion setup for someone else's car. In its place, a Getrag 245/4 four-speed — the gearbox fitted to most 2002s of this era — will go in as part of the EV conversion.
 
 ## The Backstory: Why EV, Not EFI, Not K24
 
-I get asked this a lot, so let's get it out of the way early.
-
 The tii's numbers-matching M10 engine, complete with its Kugelfischer mechanical injection, isn't going anywhere. It's coming out, and it's going into storage — cleaned, protected, and kept exactly as it is. If someone down the track wants to put this car back to original spec, they'll have everything they need to do it properly. I'm not cutting it up, I'm not selling it off, and I'm not pretending it doesn't matter. It matters. It's just not going to be doing the driving anymore.
 
-So why not restore the Kugelfischer setup, or drop in a K24 or some other modern four-pot and call it a day?
+So why not restore the Kugelfischer setup, or drop in a modern engine swap and call it a day?
 
-Honestly — because neither of those excite me the way this does. A sympathetic EFI restoration is a beautiful thing on the right car, but it's still an M10 doing what M10s have always done, just with better fuel delivery. A K24 swap is a well-trodden path with plenty of documentation and grunt to spare, but it's also just... another engine in a bay that's had a hundred other engines in it. Neither one is *new* to me. Neither one asks me to learn anything I don't already half-know.
+Honestly — because neither of those excite me the way this does. A sympathetic EFI restoration is a beautiful thing on the right car, but it's still an M10 doing what M10s have always done, just with better fuel delivery. An engine swap — a K24, an M42, a 3S-GE, whatever the flavour of the month is in the 2002 community — brings its own learning curve and its own headaches, and I don't doubt it'd be a satisfying project in its own right. But it's also still, fundamentally, another engine in a bay that's had a few different engines in it over the decades. Neither path is *new* to me. Neither one asks me to learn anything I don't already half-know.
 
 An EV conversion does. It's a genuinely different engineering problem — power delivery, packaging, weight distribution, compliance, all of it rebuilt from first principles instead of following someone else's shop manual. That's the appeal. I want to build something, not just install something.
 
@@ -32,7 +28,7 @@ And to be upfront about the elephant in the room: yes, I know some people think 
 **Powertrain**
 The heart of the conversion is a Nissan Leaf EM57 motor and inverter — the standard 80kW/250Nm unit, not the higher-output e+ variant, chosen deliberately to stay within the limits of the BMW's small-case differential and rear axle hardware. Controller-side torque limiting is there as a backstop if needed.
 
-Rather than keeping the Leaf's internal reduction gearset, this is a full transaxle delete. A coupler mounts directly to the EM57's raw output shaft, and drive goes straight into a retained Getrag 245/4 four-speed gearbox via an adapter system. The BMW diff — targeting a 4.10:1 ratio — does the only reduction work in the driveline. It's a deliberate departure from a lot of EV conversions that bolt straight to a diff with no gearbox at all; keeping the 245/4 in the chain adds a genuine mechanical buffer, even though the EM57's torque curve means the clutch and shifting will rarely, if ever, get used in daily driving.
+Rather than keeping the Leaf's internal reduction gearset, this is a full transaxle delete. A coupler mounts directly to the EM57's raw output shaft, and drive goes straight into a Getrag 245/4 four-speed gearbox — the period-correct 4-speed for this era of 2002, replacing the car's current 245/10 five-speed — via an adapter system. The BMW diff — targeting a 4.10:1 ratio — does the only reduction work in the driveline. It's a deliberate departure from a lot of EV conversions that bolt straight to a diff with no gearbox at all; keeping the 245/4 in the chain adds a genuine mechanical buffer, even though the EM57's torque curve means the clutch and shifting will rarely, if ever, get used in daily driving.
 
 **Driveline geometry**
 The car currently runs a crude ~200mm driveshaft adapter to relocate the centre support bearing, most likely a leftover from a previous 4-speed-to-5-speed swap that didn't account for the factory 235/5's mounting position. Before any new mounts get fabricated, the tunnel's getting inspected for surviving factory mount points from that original 235/5 setup.
