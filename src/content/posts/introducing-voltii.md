@@ -44,4 +44,4 @@ Standalone Elcon/TC-style OBC leaning, since the Leaf's factory unit is tied to 
 **Compliance**
 This is going through Queensland's NCOP LV1 pathway, with a local TMR signatory engaged for sign-off. Battery restraint will be handled as an engineering calculation against NCOP g-ratings rather than destructive testing.
 
-More posts to come as the gearbox adapter gets finalised and the tunnel gets opened up for inspection.
+More posts to come as the gearbox adapter gets finalised.
