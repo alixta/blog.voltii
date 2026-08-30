@@ -44,8 +44,4 @@ Standalone Elcon/TC-style OBC leaning, since the Leaf's factory unit is tied to 
 **Compliance**
 This is going through Queensland's NCOP LV1 pathway, with a local TMR signatory engaged for sign-off. Battery restraint will be handled as an engineering calculation against NCOP g-ratings rather than destructive testing.
 
-## What's Local, What's Not
-
-Sourcing has been a genuine constraint throughout, not an afterthought. This is a RHD car, currently based in Australia, and a lot of the EV conversion world — brake boosters, gearbox adapters, reference builds — assumes LHD by default. Where overseas parts make sense (UK-sourced couplers, US-sourced adapter plates, Tesla-donor brake components), they're on the table. But every decision gets checked against local fitment, local supply, and what Queensland's compliance framework actually requires, not just what a forum thread in the northern hemisphere says is standard practice.
-
 More posts to come as the gearbox adapter gets finalised and the tunnel gets opened up for inspection.
