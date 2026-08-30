@@ -32,9 +32,6 @@ Rather than keeping the Leaf's internal reduction gearset, this is a full transa
 
 Keeping a gearbox in the chain at all is a compromise, not the ideal outcome — most RWD EM57 conversions end up doing the same thing, running the box clutchless as a single-gear pass-through rather than eliminating it entirely. A cleaner direct-drive setup, or a simple 2:1 reduction unit, would be the neater solution on paper. Neither is a viable option for this build right now — the parts and reference builds for either just aren't there yet for a RHD 2002 — so the 245/4 stays in the driveline as the practical answer, even though the EM57's torque curve means the clutch and shifting will rarely, if ever, get used in daily driving.
 
-**Driveline geometry**
-The car currently runs a crude ~200mm driveshaft adapter to relocate the centre support bearing, most likely a leftover from a previous 4-speed-to-5-speed swap that didn't account for the factory 235/5's mounting position. Before any new mounts get fabricated, the tunnel's getting inspected for surviving factory mount points from that original 235/5 setup.
-
 **Brakes**
 The RHD-specific remote servo brake booster is a known pain point — expensive and difficult to rebuild, and outside the coverage of the usual LHD-focused suppliers. The current plan is a Bosch iBooster, using factory RHD-specific part numbers sourced from Tesla platforms, which should sidestep the pedal box and clevis orientation issues that plague a straight LHD-to-RHD adaptation. It's CAN-free — just 12V ignition-switched power, 12V battery, and ground. OEM calipers and rear drums stay, pending engineering sign-off.
 
