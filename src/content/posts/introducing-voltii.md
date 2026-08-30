@@ -7,9 +7,9 @@ tags: ["intro", "backstory", "technical overview"]
 
 ## The Car
 
-This is a 1973 BMW 2002tii — chassis 2751676, right-hand drive, delivered new with a factory-fitted Getrag 235/5 close-ratio dogleg 5-speed and a limited-slip differential. That combination came off the line on fewer than 2,000 cars. The original invoice confirms it. That gearbox is long gone, lost to history before I owned the car, but the paper trail is still here and it tells a story of a car that was a bit special even when it was new.
+This is a 1973 BMW 2002tii — chassis 2751676, right-hand drive, manufactured in Germany and originally delivered to a dealership in London. How and when it made its way to Australia isn't clear yet — still a gap in the car's history. It was delivered new in Inca Orange, and was repainted a deep navy blue at some point along the way. It also came factory-fitted with a Getrag 235/5 close-ratio dogleg 5-speed and a limited-slip differential — a combination fewer than 2,000 cars ever left the factory with. The original invoice confirms it. That gearbox is long gone, lost to history before I owned the car, but the paper trail is still here and it tells a story of a car that was a bit special even when it was new.
 
-The plates read **02TII**, a tip of the hat to the previous owner who ran them long before me. I'm keeping them. There'll be a cursive "Voltii" badge on the boot lid before this is done.
+The plates read **02TII**, a tip of the hat to the previous owner who ran them long before me. I'm keeping them.
 
 ## The Backstory: Why EV, Not EFI, Not K24
 
@@ -32,7 +32,7 @@ And to be upfront about the elephant in the room: yes, I know some people think 
 **Powertrain**
 The heart of the conversion is a Nissan Leaf EM57 motor and inverter — the standard 80kW/250Nm unit, not the higher-output e+ variant, chosen deliberately to stay within the limits of the BMW's small-case differential and rear axle hardware. Controller-side torque limiting is there as a backstop if needed.
 
-Rather than keeping the Leaf's internal reduction gearset, this is a full transaxle delete. An Online Gearbox Parts Shop "Divorced Output Coupler" mounts directly to the EM57's raw output shaft, and drive goes straight into a retained Getrag 245/4 four-speed gearbox via a BRAT Industries adapter system. The BMW diff — targeting a 4.10:1 ratio — does the only reduction work in the driveline. It's a deliberate departure from a lot of EV conversions that bolt straight to a diff with no gearbox at all; keeping the 245/4 in the chain adds a genuine mechanical buffer, even though the EM57's torque curve means the clutch and shifting will rarely, if ever, get used in daily driving.
+Rather than keeping the Leaf's internal reduction gearset, this is a full transaxle delete. A coupler mounts directly to the EM57's raw output shaft, and drive goes straight into a retained Getrag 245/4 four-speed gearbox via an adapter system. The BMW diff — targeting a 4.10:1 ratio — does the only reduction work in the driveline. It's a deliberate departure from a lot of EV conversions that bolt straight to a diff with no gearbox at all; keeping the 245/4 in the chain adds a genuine mechanical buffer, even though the EM57's torque curve means the clutch and shifting will rarely, if ever, get used in daily driving.
 
 **Driveline geometry**
 The car currently runs a crude ~200mm driveshaft adapter to relocate the centre support bearing, most likely a leftover from a previous 4-speed-to-5-speed swap that didn't account for the factory 235/5's mounting position. Before any new mounts get fabricated, the tunnel's getting inspected for surviving factory mount points from that original 235/5 setup.
@@ -47,10 +47,10 @@ Still open. The battery pack decision — stock Leaf pack, reconfigured Leaf mod
 Standalone Elcon/TC-style OBC leaning, since the Leaf's factory unit is tied to its stock pack and BMS.
 
 **Compliance**
-This is going through Queensland's NCOP LV1 pathway, with Autotechnica QLD as the identified TMR signatory. Battery restraint will be handled as an engineering calculation against NCOP g-ratings rather than destructive testing.
+This is going through Queensland's NCOP LV1 pathway, with a local TMR signatory engaged for sign-off. Battery restraint will be handled as an engineering calculation against NCOP g-ratings rather than destructive testing.
 
 ## What's Local, What's Not
 
-Sourcing has been a genuine constraint throughout, not an afterthought. This is a RHD car built in Australia, and a lot of the EV conversion world — brake boosters, gearbox adapters, reference builds — assumes LHD by default. Where overseas parts make sense (UK-sourced couplers, US-sourced adapter plates, Tesla-donor brake components), they're on the table. But every decision gets checked against local fitment, local supply, and what Queensland's compliance framework actually requires, not just what a forum thread in the northern hemisphere says is standard practice.
+Sourcing has been a genuine constraint throughout, not an afterthought. This is a RHD car, currently based in Australia, and a lot of the EV conversion world — brake boosters, gearbox adapters, reference builds — assumes LHD by default. Where overseas parts make sense (UK-sourced couplers, US-sourced adapter plates, Tesla-donor brake components), they're on the table. But every decision gets checked against local fitment, local supply, and what Queensland's compliance framework actually requires, not just what a forum thread in the northern hemisphere says is standard practice.
 
 More posts to come as the gearbox adapter gets finalised and the tunnel gets opened up for inspection.
