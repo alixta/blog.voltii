@@ -30,5 +30,28 @@ const formattedDate = date.toLocaleDateString('en-AU', {
     <div class="post-body">
       <slot />
     </div>
+
+    <div class="comments">
+      <h2>Questions &amp; Comments</h2>
+      <p class="post-meta">
+        Sign in with GitHub to ask a question or leave a comment on this post.
+      </p>
+      <script
+        src="https://giscus.app/client.js"
+        data-repo="alixta/blog.voltii"
+        data-repo-id="R_kgDOUH9wVQ"
+        data-category="Q&A"
+        data-category-id="DIC_kwDOUH9wVc4DEe9L"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async
+      ></script>
+    </div>
   </article>
 </BaseLayout>
